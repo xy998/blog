@@ -18,6 +18,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "搭建本站",
+        items: [
+          { text: "示例", link: "/build" },
+        ],
+      },
+      {
         text: "Nuxt网站",
         items: [
           { text: "PM2示例", link: "/pm2" },

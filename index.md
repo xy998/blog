@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 笔记
-      link: /pm2
+      link: /build
 
 features:
   - icon: 📝
