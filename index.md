@@ -3,26 +3,25 @@
 layout: home
 
 hero:
-  name: "Blog"
-  text: "A VitePress Site"
+  name: "xxyu's Blog"
+  text: "A VitePress Blog"
   tagline: Hi! Nice to meet you! 👋
   image:
     src: /logo.png
     alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 笔记
+      link: /pm2
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📝
+    title: blog
+    details: 记录一些随笔。
+    link: /pm2
+  - icon: 🌏
+    title: website
+    details: 编写一些有意思的东西。
+    link: https://xxyu.online
 ---
 
