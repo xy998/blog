@@ -31,6 +31,13 @@ export default defineConfig({
         ],
       },
       {
+        text: "npm",
+        items: [
+          { text: "npm发包", link: "/npm" },
+          { text: "zb-trans包", link: "/zb-trans" },
+        ],
+      },
+      {
         text: "Nuxt网站",
         items: [
           { text: "PM2示例", link: "/pm2" },
