@@ -13,7 +13,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.svg",
     nav: [
-      { text: "笔记", link: "/" },
+      { text: "📝笔记", link: "/" },
+      { text: "🌏website", link: "https://xxyu.online" }
     ],
 
     sidebar: [
@@ -21,6 +22,12 @@ export default defineConfig({
         text: "搭建本站",
         items: [
           { text: "示例", link: "/build" },
+        ],
+      },
+      {
+        text: "Notes",
+        items: [
+          { text: "我和前端", link: "/me" },
         ],
       },
       {

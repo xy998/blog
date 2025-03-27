@@ -13,6 +13,9 @@ hero:
     - theme: brand
       text: 笔记
       link: /build
+    - theme: alt
+      text: website ->
+      link: https://xxyu.online
 
 features:
   - icon: 📝
