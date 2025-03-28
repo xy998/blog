@@ -5,9 +5,10 @@
 # PM2 & Nuxt
 
 ## 简介
-+ Node.js 进程管理工具
-+ 服务器上托管的 Nuxt 应用程序✨
-+ [我的website](https://xxyu.online)
+
+- Node.js 进程管理工具
+- 服务器上托管的 Nuxt 应用程序✨
+- [我的website](https://xxyu.online)
 
 ## 安装
 
@@ -95,7 +96,7 @@ pm2 describe xxyu
 
 ## 高级用法
 
-+ 调整好对应路径 目前 .output 同级目录
+- 调整好对应路径 目前 .output 同级目录
 
 ```javascript
 module.exports = {
@@ -105,10 +106,10 @@ module.exports = {
       port: '3000',
       exec_mode: 'cluster',
       instances: 'max',
-      script: '/home/webset/.output/server/index.mjs'
-    }
-  ]
-}
+      script: '/home/webset/.output/server/index.mjs',
+    },
+  ],
+};
 ```
 
 ```shell
@@ -129,25 +130,25 @@ pm2 start /home/webset/ecosystem.config.js
 # └────┴────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘
 ```
 
-+ 建立 pm2 配置文件
-+ name 自定义
-+ port 自定义  
+- 建立 pm2 配置文件
+- name 自定义
+- port 自定义
 
-- nuxt 配置port不生效
+* nuxt 配置port不生效
 
-+ exec_mode: 'cluster'  
+- exec_mode: 'cluster'
 
-- 启用 cluster 集群模式
+* 启用 cluster 集群模式
 
-+ instances: 'max'  
+- instances: 'max'
 
-- 根据 cpu 核心启动多个实例
+* 根据 cpu 核心启动多个实例
 
-+ 集群特点  
+- 集群特点
 
-- 处理更多请求  
-- 充分利用多核 cpu 提升利用率  
-- 提升容错 某个出错其余继续服务
+* 处理更多请求
+* 充分利用多核 cpu 提升利用率
+* 提升容错 某个出错其余继续服务
 <div align="center">
 	<img src="./public/website.png" />
 </div>

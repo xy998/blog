@@ -5,7 +5,8 @@
 
 ## 简介
 
-[zb-trans](https://github.com/xxyu98/zb-trans) 使用定义的一些常量来进行坐标系转换 无需再次调用第三方 api 转换
+[zb-trans](https://github.com/xxyu98/zb-trans)
+使用定义的一些常量来进行坐标系转换 无需再次调用第三方 api 转换
 
 ## 特性
 
@@ -22,22 +23,22 @@ npm i zb-trans
 - wgs84togcj02 **原始坐标转为高德地图坐标**
 
   ```javascript
-  import { wgs84togcj02 } from 'zb-trans'
-  const [gd_lng, gd_lat] = wgs84togcj02(lng, lat)
+  import { wgs84togcj02 } from 'zb-trans';
+  const [gd_lng, gd_lat] = wgs84togcj02(lng, lat);
   ```
 
 - gcj02tobd09 **高德地图坐标转百度地图坐标**
 
   ```javascript
-  import { gcj02tobd09 } from 'zb-trans'
-  const [gd_lng, gd_lat] = gcj02tobd09(lng, lat)
+  import { gcj02tobd09 } from 'zb-trans';
+  const [gd_lng, gd_lat] = gcj02tobd09(lng, lat);
   ```
 
 - wgs84tobd09 **原始坐标转为百度地图坐标**
 
   ```javascript
-  import { wgs84tobd09 } from 'zb-trans'
-  const [gd_lng, gd_lat] = wgs84tobd09(lng, lat)
+  import { wgs84tobd09 } from 'zb-trans';
+  const [gd_lng, gd_lat] = wgs84tobd09(lng, lat);
   ```
 
 ## 开源作者

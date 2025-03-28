@@ -2,9 +2,11 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "format": "prettier --write \"**/*.md\""
   },
   "devDependencies": {
+    "prettier": "^3.5.3",
     "vitepress": "^1.6.3"
   }
 }

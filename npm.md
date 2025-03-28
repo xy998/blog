@@ -3,7 +3,6 @@
   <h2>npm 发包</h2>
 </div>
 
-
 ## 目标
 
 使用 `npm install xxx` 来安装属于自己的包
@@ -43,9 +42,7 @@
     "bd09",
     "transform"
   ],
-  "files": [
-    "lib/**/*"
-  ],
+  "files": ["lib/**/*"],
   "repository": {
     "type": "git",
     "url": "https://github.com/xxyu98/zb-trans"
@@ -60,8 +57,8 @@
     "typescript": "^5.1.6"
   }
 }
-
 ```
+
 生成 license
 
 ```shell
@@ -88,7 +85,7 @@ function add(a: number, b: number) {
 
 <img src="./public/npm-tip.png" width="500" />
 
-- 新增  `tsconfig.json` 
+- 新增 `tsconfig.json`
 
 ```json
 // tsconfig.json 文件来指定编译这个项目的根文件和编译选项
@@ -128,6 +125,7 @@ npm publish
 ```
 
 ## 已经发布的包
+
 [zb-trans](https://www.npmjs.com/package/zb-trans)
 
 原始坐标、高德坐标、百度坐标本地js坐标转换

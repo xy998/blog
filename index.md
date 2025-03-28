@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "xxyu's Blog"
-  text: "A VitePress Blog"
+  text: 'A VitePress Blog'
   tagline: Hi! Nice to meet you! 👋
   image:
     src: /logo.png
@@ -27,4 +27,3 @@ features:
     details: 编写一些有意思的东西。
     link: https://xxyu.online
 ---
-

@@ -8,7 +8,6 @@ VitePress 是一个静态站点生成器 (SSG)，专为构建快速、以内容�
 
 ## 使用场景
 
-
 - **文档**
 
   [Vue.js 官方文档](https://cn.vuejs.org/) 就是基于 VitePress。
@@ -19,7 +18,8 @@ VitePress 是一个静态站点生成器 (SSG)，专为构建快速、以内容�
 
 ## 快捷部署🚀
 
-- 克隆 仓库 [[template](https://github.com/xy998/blog/tree/v0.0.1)](https://github.com/xy998/blog/tree/v0.0.1)
+- 克隆 仓库
+  [[template](https://github.com/xy998/blog/tree/v0.0.1)](https://github.com/xy998/blog/tree/v0.0.1)
 - 提交你的代码到 github
 - 打开 [vercel](https://vercel.com/) 部署
 
