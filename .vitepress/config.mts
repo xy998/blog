@@ -19,28 +19,24 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "搭建本站",
+        text: "我的 🌏",
         items: [
-          { text: "示例", link: "/build" },
-        ],
-      },
-      {
-        text: "Notes",
-        items: [
+          { text: "搭建本站", link: "/build" },
           { text: "我和前端", link: "/me" },
         ],
       },
       {
-        text: "npm",
+        text: "Notes 📝",
         items: [
           { text: "npm发包", link: "/npm" },
           { text: "zb-trans包", link: "/zb-trans" },
+          { text: "PM2用法", link: "/pm2" },
         ],
       },
       {
-        text: "Nuxt网站",
+        text: "工具 🛠",
         items: [
-          { text: "PM2示例", link: "/pm2" },
+          { text: "idea 激活", link: "/idea" },
         ],
       },
     ],
