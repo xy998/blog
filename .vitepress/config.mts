@@ -23,6 +23,8 @@ export default defineConfig({
         items: [
           { text: "搭建本站", link: "/build" },
           { text: "我和前端", link: "/me" },
+          { text: "前端模板推荐", link: "/template" },
+
         ],
       },
       {
