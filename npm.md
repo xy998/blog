@@ -5,7 +5,7 @@
 
 ## 目标
 
-使用 `npm install xxx` 来安装属于自己的包
+使用 `npm install xxx` 可以安装属于自己的包
 
 ## 初始化
 
@@ -127,5 +127,9 @@ npm publish
 ## 已经发布的包
 
 [zb-trans](https://www.npmjs.com/package/zb-trans)
+
+<div align="center">
+  <img src="./public/npm-package.png" />
+</div>
 
 原始坐标、高德坐标、百度坐标本地js坐标转换

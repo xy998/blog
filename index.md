@@ -21,7 +21,7 @@ features:
   - icon: 📝
     title: blog
     details: 记录一些随笔。
-    link: /pm2
+    link: /build
   - icon: 🌏
     title: website
     details: 编写一些有意思的东西。
