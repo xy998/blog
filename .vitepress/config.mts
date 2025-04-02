@@ -37,6 +37,7 @@ export default defineConfig({
         text: "工具 🛠",
         items: [
           { text: "idea 激活", link: "/idea" },
+          { text: "字体提取", link: "/font-zip" },
         ],
       },
     ],
