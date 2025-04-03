@@ -6,7 +6,7 @@
 - 一个 vue 3.x cli uni-app `简洁`模板
 - 内置最小单位 `tabbar` 页面 `subPackages` 分包 `pinia` 示例
 
-<div style="display: flex;">
+<div style="display: flex; flex-wrap: wrap;">
   <img src="./public/uni-index.png" width="150" />
   <img src="./public/uni-user.png" width="150" />
   <img src="./public/uni-login.png" width="150" />
