@@ -34,6 +34,7 @@ export default defineConfig({
           { text: "zb-trans包", link: "/zb-trans" },
           { text: "PM2用法", link: "/pm2" },
           { text: "项目更新提醒", link: "/plugin-build-time" },
+          { text: "websocket", link: "/websocket" },
         ],
       },
       {
