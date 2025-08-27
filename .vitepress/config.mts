@@ -14,7 +14,7 @@ export default defineConfig({
     logo: "/logo.svg",
     nav: [
       { text: "📝笔记", link: "/" },
-      { text: "🌏website", link: "https://xxyu.online" }
+      { text: "🌏website", link: "https://xy998.uk" }
     ],
 
     sidebar: [

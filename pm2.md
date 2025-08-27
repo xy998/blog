@@ -8,7 +8,7 @@
 
 - Node.js 进程管理工具
 - 服务器上托管的 Nuxt 应用程序✨
-- [我的website](https://xxyu.online)
+- [我的website](https://xy998.uk)
 
 ## 安装
 

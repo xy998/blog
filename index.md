@@ -15,7 +15,7 @@ hero:
       link: /build
     - theme: alt
       text: website ->
-      link: https://xxyu.online
+      link: https://xy998.uk
 
 features:
   - icon: 📝
@@ -25,5 +25,5 @@ features:
   - icon: 🌏
     title: website
     details: 编写一些有意思的东西。
-    link: https://xxyu.online
+    link: https://xy998.uk
 ---
