@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "xxyu's Blog"
-  text: 'A VitePress Blog'
+  name: "xy"
+  text: ''
   tagline: Hi! Nice to meet you! 👋
   image:
     src: /logo.png
@@ -15,7 +15,7 @@ hero:
       link: /build
     - theme: alt
       text: website ->
-      link: https://xy998.uk
+      link: https://blog-khaki-xi-64.vercel.app
 
 features:
   - icon: 📝
@@ -24,6 +24,6 @@ features:
     link: /build
   - icon: 🌏
     title: website
-    details: 编写一些有意思的东西。
+    details: 编写小Demo
     link: https://xy998.uk
 ---

@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 大标题
-  title: "xxyu's 博客",
-  description: "xxyu小窝，xxyu笔记，xxyu's 博客",
+  title: "xy的博客",
+  description: "xy的博客,xy的笔记,xy的website",
   head: [
     ["link", { rel: "icon", href: "/logo.svg" }]
   ],
@@ -42,6 +42,7 @@ export default defineConfig({
         items: [
           { text: "idea 激活", link: "/idea" },
           { text: "字体提取", link: "/font-zip" },
+          { text: "window激活", link: "/window-activation" },
         ],
       },
     ],
